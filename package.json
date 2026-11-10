@@ -3,5 +3,12 @@
     "@aws-sdk/client-sts": "3.1165.0",
     "@modelcontextprotocol/sdk": "1.32.2",
     "zod": "4.6.7"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test --experimental-strip-types test/"
   }
 }
